@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">shinjukai3-k</string>
+    <string name="title_activity_main">shinjukai3-k</string>
+    <string name="package_name">com.shinjuhai.app</string>
+    <string name="custom_url_scheme">com.shinjuhai.app</string>
+</resources>

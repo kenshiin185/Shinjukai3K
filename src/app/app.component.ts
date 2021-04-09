@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shinjukai3K';
-}
+  
+
+  constructor(private router:Router) {}
+
+  ngOnInit() {
+    this.splash();
+  }
+      splash() {
+        
+        setTimeout (() => {
+         
+         
+        }, 1500);
+        
+        this.router.navigate(['/accueil']);
+        
+     
+      }
+    }

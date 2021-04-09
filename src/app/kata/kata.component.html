@@ -1,0 +1,185 @@
+<div class="wbtn">
+<button type="button" class="btn btn-outline-primary" (click)="karate()">Base Karaté</button>
+<button type="button" class="btn btn-outline-primary" (click)="shotokan()">Base Shotokan</button>
+<button type="button" class="btn btn-outline-primary" (click)="aiki()">Base Aïki Jujutsu</button>
+<button type="button" class="btn btn-outline-primary" (click)="arme()">Base Armes</button>
+<button type="button" class="btn btn-outline-primary" (click)="shinju()">Kata Supérieurs Shinjukaï</button>
+</div>
+<div class="containKhion">
+    <div class="wkarate" *ngIf="karates">
+        <h1>Base Karaté</h1>
+        <div class="wiframe">
+            <h3>Dachi no kata</h3>
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/7KW49I6T4I0 " frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <h4>Description:</h4>
+          <ol>
+              <li>Reculer en Zenkutsu Dachi</li>
+              <li>Décaler Jambe Avant en Kokutsu Dachi</li>
+              <li>Décaler Jambe Avant en Shiko Dachi</li>
+              <li>Décaler Jambe Avant en Kiba Dachi</li>
+              <li>Regrouper Jambe Arrière en Kosa Dachi</li>
+              <li>Ramener Jambe Arrière à sa place d’origine et Jambe Avant en Neko Ashi Dachi</li>
+              <li>Passer en Sanchin Dachi en pivotant sur les plantes de pied</li>
+              <li>Décaler Jambe Avant en Fudo Dachi</li>
+          </ol>
+        </div>
+        <div class="wiframe">
+            <h3>Unsoku no kata</h3>
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/iKb_p_pjfQU " frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <h4>Description:</h4>
+            <ol>
+                <li>Ayumi Ashi</li>
+                <li>Tsugi ashi</li>
+                <li>Yori ashi</li>
+                <li>Mawari ashi</li>
+                <li>Ushiro mawari ashi</li>
+                <li>Kosa ashi</li>
+                <li>Hiki ashi</li>
+                
+            </ol>
+        </div>
+        <div class="wiframe">
+            <h3>Uchi no kata</h3>
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/MXrrPzqtAxQ " frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <h4>Description:</h4>
+            <ol>
+                <li>Avancer en Zenkutsu dachi avec Jodan Uraken uchi</li>
+                <li>Jodan Gyaku Tetsui uchi (vertical)</li>
+                <li>Jodan Teïsho uchi</li>
+                <li>Jodan Shuto uchi (extérieur) en décalant le pied avant sur le côté en Kiba dachi</li>
+                <li>Chudan Haïshu uchi (sur le côté)</li>
+                <li>Chudan Seïryuto uchi</li>
+                <li>Jodan Haïto uchi (extérieur) en ramenant le pied en Hachiji dachi</li>
+                <li>Jodan Shuto uchi (intérieur)</li>
+                <li>Shomen uchi gauche en reculant le pied en esquive</li>
+                <li>Gedan Gyaku Haïto uchi (remontant) 
+                    en remettant le pied arrière dans l'axe en Zenkutsu dachi
+                </li>
+            </ol>
+        </div>
+        <div class="wiframe">
+            <h3>Uke no kata</h3>
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/-1299FaH1Rs" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <h4>Description:</h4>
+           <ol>
+               <li>Jodan Age Uke</li>
+               <li>Chudan Otoshi Uke</li>
+               <li> Jodan Tate Uke</li>
+               <li>Jodan Soto Uke</li>
+               <li>Gedan Baraï</li>
+               <li>Chudan Uchi Uke</li>
+               <li>Gedan Nagashi Baraï</li>
+               <li>Gedan Uchi Baraï</li>
+           </ol>
+        </div>
+        <div class="wiframe">
+            <h3>Uke no kata II</h3>
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/fhDHMcPwRUo" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <h4>Description:</h4>
+            <ol>
+                <li>Jodan Shuto age uke</li>
+                <li> Chudan Osae uke</li>
+                <li>Jodan Tate shuto uke</li>
+                <li>Jodan Teïsho uke</li>
+                <li>Gedan Shuto Baraï</li>
+                <li>Chudan Kake uke</li>
+                <li>Gedan Teïsho Nagashi Baraï</li>
+                <li>Gedan Haïto baraï</li>
+            </ol>
+        </div>
+        <div class="wiframe">
+            <h3>Atemi no kata</h3>
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/DHbPfEg4RBc" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <h4>Description:</h4>
+           <ol>
+               <li>Chudan Tsuki puis Jodan Tsuki</li>
+               <li>Jodan Nukite puis Jodan Shuto Uchi (intérieur)</li>
+               <li>Jodan Haito Uchi puis Chudan Tetsui Uchi (horizontal)</li>
+               <li>Regard sur le côté, Chudan Kagi zuki puis Chudan Yoko Empi Uchi</li>
+               <li>Regard face, Jodan Teisho Uchi puis Jodan Uraken Uchi</li>
+               <li>Jodan Age Empi Uchi puis Jodan Mawashi Empi Uchi</li>
+               <li>Chudan Ura zuki puis Jodan Mawashi zuki</li>
+           </ol>
+        </div>
+
+        <div class="wiframe">
+            <h3>Tsuki no kata</h3>
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/8YcQ0SOhtNc" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <h4>Description:</h4>
+            <ol>
+                <li>Avancer en Zenkutsu dachi avec Jodan Oï-zuki</li>
+                <li>Chudan Gyaku zuki</li>
+                <li>Jodan Kizami zuki</li>
+                <li>Chudan gyaku Kagi zuki en décalant le pied avant sur le côté en Kiba dachi</li>
+                <li>Chudan Yoko zuki</li>
+                <li>Chudan Tate zuki</li>
+                <li>Jodan Mawashi zuki en ramenant le pied en Hachiji dachi</li>
+                <li>Jodan Ura zuki</li>
+                <li>Jodan Nagashi zuki en reculant le pied en esquive</li>
+                <li>Chudan Gyaku Nukite en remettant le pied arrière droit dans l'axe en Zenkutsu dachi</li>
+            </ol>
+        </div>
+
+        <div class="wiframe">
+            <h3>Keri no kata</h3>
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/26n0DFYsxHo" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <h4>Description:</h4>
+           <ol>
+               <li>Mae Geri, poser sur place</li>
+               <li>Mawashi Geri avec l'autre jambe, poser de profil</li>
+               <li>Ura Mawashi Geri, rester de profil</li>
+               <li>Yoko Geri Jambe, rester de profil</li>
+               <li>Fumikomi Jambe, poser en Kiba dachi de profil</li>
+               <li>Revenir face, Ura Mikazuki Geri, poser sur place</li>
+               <li>Saisie, Mae Hiza Geri avec l'autre jambe, poser sur place</li>
+           </ol>
+        </div> 
+
+        <div class="wiframe">
+            <h3>Empi no kata</h3>
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/gihfpueEw9s" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope ; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <h4>Description:</h4>
+          <ol>
+              <li>Jodan Age empi en avancant en Zenkutsu dachi</li>
+              <li>Chudan Ushiro empi en reculant</li>
+              <li>Chudan Mae empi (vertical) en avancant</li>
+              <li>Saisie main opposée puis Otoshi empi</li>
+              <li>Chudan Yoko empi en décalant le pied avant sur le côté en Kiba dachi</li>
+              <li>Chudan Mawashi empi</li>
+              <li>Jodan Ura empi (vers l'arrière) en ramenant le pied en Hachiji dachi</li>
+          </ol>
+        </div>
+    </div><!--end karate-->
+    <app-shotokan *ngIf="shotokans"></app-shotokan>
+    <app-aiki *ngIf="aikis"></app-aiki>
+    <app-katas-armes *ngIf="armes"></app-katas-armes>
+    <app-katas-sup *ngIf="shinjus"></app-katas-sup>
+    <button type="button" class="btn btn-primary btn-sm" [routerLink]="['/accueil']">retour</button>
+</div>

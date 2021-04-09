@@ -1,0 +1,13 @@
+{
+  "appId": "com.shinjuhai.app",
+  "appName": "shinjukai3-k",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1
+    }
+  },
+  "cordova": {}
+}

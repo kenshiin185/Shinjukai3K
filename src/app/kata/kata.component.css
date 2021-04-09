@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.containKhion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.wiframe {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banniere {
+    width: 100%;
+}
+.wbtn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
